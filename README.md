@@ -50,7 +50,7 @@ A screenshot that shows the terminal with all the prompts:
 <br>
 
 A screenshot that shows the generated README file:
-![generated README file](./Images/Generated Readme.png)
+![generated README file](./Images/GeneratedReadme.png)
 <br>
 
 ## Some Resources

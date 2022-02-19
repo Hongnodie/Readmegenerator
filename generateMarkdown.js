@@ -111,12 +111,14 @@ function generateMarkdown(data) {
 
   ###  **INSTALLATION INSTRUCTIONS**
   
-  To run this app, you have to install dependencies for this application you can run the following:
-  \`${data.installationInstructions}\`
+  Before run this app, you have to install dependencies for this application first. To do so, it's suggested to run the following command:
+  \`${data.installationCommand}\`
+  in ${data.commandPlatform}
   <br>
 
   ###  **USAGE INFO**
   
+  To start the application, user need to:
   ${data.usageInfo}
   <br>
 
@@ -135,7 +137,8 @@ function generateMarkdown(data) {
   ###  **LICENSE**
  
   This repository is licensed under the \`${data.license}\` license, which is specified as: <br>
-  Copyright (C) ${data.versionYear}  ${data.githubUsername} <br>
+  ${data.license} license
+  Copyright (C) <${data.versionYear}>  <${data.githubUsername}> <br>
   ${renderLicenseSection(data.license)}
   <br>
   <br>
@@ -151,9 +154,9 @@ function generateMarkdown(data) {
 
   Should you have any questions or feedback about our app 
   Please leave a message at:
-  * [https://github.com/${data.githubUsername}/](https://github.com/${data.githubUsername}/)
+  [https://github.com/${data.githubUsername}/](https://github.com/${data.githubUsername}/) 
   or email to
-  * [${data.email}](mailto:${data.email})
+  [${data.email}](mailto:${data.email})
   <br>`;
 
 }

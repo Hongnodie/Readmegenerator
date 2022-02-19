@@ -35,22 +35,22 @@ THEN I am taken to the corresponding section of the README
 
 ## Usage
 
+[Github Repo for Raw Code](https://github.com/Hongnodie/Readmegenerator.git)
+
 Under the link below you will find a walkthrough video that demonstrates; how a user would invoke the application from the command line, how a user would enter responses to all of the prompts in the application and a generated README.md that matches the user input and has a functioning table of contents.<br>
 If the video appears out of focus please hit the space bar twice.
 
-[Google drive video]()
+[Google drive video](https://drive.google.com/file/d/1e-NjkovYB5I1NehjfoJhvyrh07j8izk3/view)
 <br>
 
 A screenshot that shows the terminal with all the prompts:
 <br>
 
-![Prompts Screenshots]()
+![Prompts Screenshots](./Images/Promptinstruction.png)
 <br>
 
 A screenshot that shows the generated README file:
-<br>
-
-![generated README file](./Generated/README.md)
+![generated README file](./Images/Generated Readme.png)
 <br>
 
 ## Some Resources

@@ -17,7 +17,7 @@ function writeToFile(filePath, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log("Please answer the following questions:");
+    console.log("Please specify your readme file by answering to the following questions:");
     inquirer
         .prompt(questions)
         .then((answers) => {

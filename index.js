@@ -9,7 +9,11 @@ const generateMarkdown = require("./generateMarkdown.js");
 const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(filePath, data) {
+    fs.writeFile(filePath, data, 
+        (err) => err ? console.log(err) : console.log("Readme file generated successfully in the 'Generated' folder!")
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {}

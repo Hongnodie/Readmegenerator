@@ -86,11 +86,10 @@ function generateMarkdown(data) {
   ##  **${data.projectTitle}**
   <br>
   
-  Licensed under ${renderLicenseBadgeandLink(data.license)}
+  Badged as ${renderLicenseBadgeandLink(data.license)}
   <br>
     
   ###  **TABLE OF CONTENTS**
-  <br>
 
   * [Description](#description)
   * [Installation Instructions](#installation-instructions)
@@ -100,9 +99,6 @@ function generateMarkdown(data) {
   * [License](#license)
   * [Credits](#credits)
   * [Questions](#questions)
-  <br>
-  <br>
-  <br>
   
   ###  **DESCRIPTION**
     
@@ -112,13 +108,16 @@ function generateMarkdown(data) {
   ###  **INSTALLATION INSTRUCTIONS**
   
   Before run this app, you have to install dependencies for this application first. To do so, it's suggested to run the following command:
+  <br>
   \`${data.installationCommand}\`
+  <br>
   in ${data.commandPlatform}
   <br>
 
   ###  **USAGE INFO**
   
   To start the application, user need to:
+  <br>
   ${data.usageInfo}
   <br>
 
@@ -137,10 +136,9 @@ function generateMarkdown(data) {
   ###  **LICENSE**
  
   This repository is licensed under the \`${data.license}\` license, which is specified as: <br>
-  ${data.license} license
+  ${data.license} License
   Copyright (C) <${data.versionYear}>  <${data.githubUsername}> <br>
   ${renderLicenseSection(data.license)}
-  <br>
   <br>
 
   ###  **CREDITS**
@@ -153,8 +151,10 @@ function generateMarkdown(data) {
   ###  **QUESTIONS**
 
   Should you have any questions or feedback about our app 
+  <br>
   Please leave a message at:
   [https://github.com/${data.githubUsername}/](https://github.com/${data.githubUsername}/) 
+  <br>
   or email to
   [${data.email}](mailto:${data.email})
   <br>`;

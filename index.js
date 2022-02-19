@@ -16,7 +16,16 @@ function writeToFile(filePath, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log("Please answer the following questions:");
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            const pageContent = generateMarkdown(answers);
+            writeToFile("./Generated/README.md", pageContent)        
+            }
+        ); 
+}
 
 // Function call to initialize app
 init();

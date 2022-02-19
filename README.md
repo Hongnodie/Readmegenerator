@@ -71,7 +71,9 @@ A screenshot that shows the generated README file:
 Some useful resources that helps better understanding the code are given below:
 <br>
 
-[Documentation of raedme file components - github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[Documentation of raedme file components - github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <br>
+
+[License Badge](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) <br>
 
 <br>
 
